@@ -50,20 +50,18 @@ bemeal.router = {
 				
 				$.getScript($.script()+"/ui/imgRow.js",()=>{
 					$('#wrapper').append(
-							$('<div/>').addClass('imgRow').html(rowUI()).slick({
+							$('<div/>').addClass('imgRow').html(rowUI())
+							.slick({
 								 infinite: true,
 							      slidesToShow: 5,
 							      slidesToScroll: 5
 							})
 							);
-					    $('#first').click(e=>{
-					       $('#first').text('first');
-					    });
-					    $('.imgRow > button:first-child').empty().append(
-					    	     $('<span/>').addClass('glyphicon glyphicon-menu-left')
-					    	   );
+					   $('.imgRow > button:first-child').empty().append(
+			    	      $('<span/>').addClass('glyphicon glyphicon-menu-left')
+			    	   );
 			    	   $('.imgRow > button:last-child').empty().append(
-			    	     $('<span/>').addClass('glyphicon glyphicon-menu-right')
+			    	      $('<span/>').addClass('glyphicon glyphicon-menu-right')
 			    	   );
 				});
 				
@@ -71,35 +69,35 @@ bemeal.router = {
 					alert('taste click');
 					$.getScript($.script()+"/kaeun.js",()=>{
 						/*가야 할 곳은 개인이 알아서*/
-						kaeun.main();
+						//kaeun.main();
 					})
 				});
 				$('#menu').click(e=>{
 					alert('menu click');
 					$.getScript($.script()+"/yoonho.js",()=>{
 						/*가야 할 곳은 개인이 알아서*/
-						yoonho.main();
+						//yoonho.main();
 					})
 				});
 				$('#login').click(e=>{
 					alert('login click');
-					$.getScript($.script()+"/junghoon.js",()=>{
+					$.getScript($.script()+"/junghoon.js",(e)=>{
 						/*가야 할 곳은 개인이 알아서*/
-						junghoon.main();
+						//junghoon.init();
 					})
 				});
 				$('#adminLogin').click(e=>{
 					alert('adminLogin click');
 					$.getScript($.script()+"/junghoon.js",()=>{
 						/*가야 할 곳은 개인이 알아서*/
-						junghoon.main();
+						junghoon.init();
 					})
 				});
 				$('#join').click(e=>{
 					alert('join click');
 					$.getScript($.script()+"/junghoon.js",()=>{
 						/*가야 할 곳은 개인이 알아서*/
-						junghoon.main();
+						junghoon.init();
 					})
 				});
 				
