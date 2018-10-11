@@ -18,6 +18,8 @@
 		<el-version>1.0</el-version>
 		<lombok-version>1.16.8</lombok-version>
 		<jackson-version>2.9.4</jackson-version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 	<dependencies>
 		<!-- Spring -->
