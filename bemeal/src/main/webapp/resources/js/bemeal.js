@@ -103,6 +103,12 @@ bemeal.router = {
 						junghoon.init();
 					})
 				});
+				$('#sam').click(e=>{
+					alert('sam click');
+					$.getScript($.script()+"/sam.js",()=>{
+						sam.util.popup();
+					})
+				});
 				
 			})
 			;

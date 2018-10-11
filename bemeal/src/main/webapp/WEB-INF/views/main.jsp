@@ -30,10 +30,10 @@
 <body>
 	<div id="wrapper"></div>
 	
-<!-- 	<script>
+	<script>
 		bemeal.init('${context}');
-	</script> -->
-	<button id="test">모달 테스트 버튼</button>
+	</script> 
+	<!-- <button id="test">모달 테스트 버튼</button>
 	<script>
 	$('#test').on('click',function(){
 		$.magnificPopup.open({
@@ -64,6 +64,6 @@
 		});
 		return false;
 	});
-</script>
+</script> -->
 </body>
 </html>
