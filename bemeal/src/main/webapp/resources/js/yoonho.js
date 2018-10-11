@@ -16,7 +16,8 @@ yoonho.main = (()=>{
 		setContentView();
 	};
 	var setContentView =()=>{
-		yoonho.item.init();
+
+		
 	};
 	return {init:init}
 })();
@@ -29,9 +30,27 @@ yoonho.item = (()=>{
 		setContentView();
 	};
 	var setContentView =()=>{
-		$('#content').empty();
+		let ctn = $('#content');
+		ctn.empty();
 		$.getScript($.script()+'/ui/y_item_detail.js',()=>{
-			$(y_item_detailUI()).appendTo($('#content'));
+			$.magnificPopup.open({
+				closeBtnInside:true,
+				closeOnContentClick:false,
+				alignTop: true,
+				fixedBgPos:true,
+				fixedContentPos:false,
+				items:{src:
+					y_item_detailUI()
+				},
+				midClick:true,
+				overflowY:'auto',
+				removalDelay:'0',
+				type:'inline'}); 
+			$('.btn').on('click',function(){
+				alert($('#code').val());
+			});
+			return false;
+
 		})
 	};
 	return {init:init}

@@ -17,6 +17,7 @@ public class HomeCtrl {
 	public String home(Model model, HttpServletRequest request) {
 		model.addAttribute("context", request.getContextPath());
 		return "main";
+		//return "test";
 	}
 	
 }
