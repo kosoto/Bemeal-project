@@ -1,9 +1,7 @@
 var junghoon = junghoon || {};
-alert('정훈.js');
 
 junghoon = (()=>{
 	var init =x=>{
-		alert('정훈init'+$.ctx());
 		onCreate();
 	};
 	var onCreate =()=>{
@@ -27,4 +25,3 @@ junghoon.main=()=>{
 		alert('main setContentView');
 	};
 };
-alert('정훈.js  끝');

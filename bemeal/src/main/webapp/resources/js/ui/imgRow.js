@@ -1,5 +1,15 @@
-function rowUI(){
-	return '<div><div><img src="/web/resources/img/cmm/image1.jpg" alt="img1" title="img1">1</div>'
+function rowUI(x){
+	return '<div class="'+x+'"><img src="" alt="img1" title="img1">'
+    +'<img src="" alt="img2" title="img2">'
+    +'<img src="" alt="img3" title="img3">'
+    +'<img src="" alt="img4" title="img4">'
+    +'<img src="" alt="img5" title="img5">'
+    +'<img src="" alt="img6" title="img6">'
+    +'<img src="" alt="img7" title="img7">'
+    +'<img src="" alt="img8" title="img8">'
+    +'<img src="" alt="img9" title="img9">'
+    +'<img src="" alt="img10" title="img10"></div>'
+/*    return '<div class="'+x+'"><div><img src="/web/resources/img/cmm/image1.jpg" alt="img1" title="img1">1</div>'
     +'<div><img src="/web/resources/img/cmm/image2.jpg" alt="img2" title="img2"></div>'
     +'<div><img src="/web/resources/img/cmm/image3.jpg" alt="img3" title="img3"></div>'
     +'<div><img src="/web/resources/img/cmm/image4.jpg" alt="img4" title="img4"></div>'
@@ -8,5 +18,5 @@ function rowUI(){
     +'<div><img src="/web/resources/img/cmm/image7.jpg" alt="img7" title="img7"></div>'
     +'<div><img src="/web/resources/img/cmm/image8.jpg" alt="img8" title="img8"></div>'
     +'<div><img src="/web/resources/img/cmm/image9.jpg" alt="img9" title="img9"></div>'
-    +'<div><img src="/web/resources/img/cmm/image10.jpg" alt="img10" title="img10"></div><div/>'
-}
+    +'<div><img src="/web/resources/img/cmm/image10.jpg" alt="img10" title="img10"></div></div>'
+*/}

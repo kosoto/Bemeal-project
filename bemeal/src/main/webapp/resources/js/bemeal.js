@@ -52,21 +52,47 @@ bemeal.router = {
 					$('<div/>').attr({id:'content'}),
 					$('<footer/>')
 				);
-				
-				$.getScript($.script()+"/ui/imgRow.js",()=>{
-					$('#content').append($(rowUI()));
-					$('#content > div').slick({
-						 infinite: true,
-					      slidesToShow: 5,
-					      slidesToScroll: 5
-					});
-				   $('#content > div > button:first-child').empty().append(
+				$('#content').append($(
+						'<div class="slide"><img src="" alt="img1" title="img1">'
+					    +'<img src="" alt="img2" title="img2">'
+					    +'<img src="" alt="img3" title="img3">'
+					    +'<img src="" alt="img4" title="img4">'
+					    +'<img src="" alt="img5" title="img5">'
+					    +'<img src="" alt="img6" title="img6">'
+					    +'<img src="" alt="img7" title="img7">'
+					    +'<img src="" alt="img8" title="img8">'
+					    +'<img src="" alt="img9" title="img9">'
+					    +'<img src="" alt="img10" title="img10"></div>'	
+				).slick({
+			        dots: false,
+			        infinite: true,
+			        speed: 500,
+			        slidesToShow: 3,
+			        slidesToScroll: 3,
+			        autoplay: true,
+			        autoplaySpeed: 2000,
+			        arrows: true
+			    }));
+				/*$.getScript($.script()+"/ui/imgRow.js",()=>{
+					$('#content').append($(rowUI('slide')));
+						//$('.multiple-items').slick('unslick');
+					$('.slide').slick({
+				        dots: false,
+				        infinite: true,
+				        speed: 500,
+				        slidesToShow: 3,
+				        slidesToScroll: 2,
+				        autoplay: true,
+				        autoplaySpeed: 2000,
+				        arrows: true
+				    });
+				   $('.test > button:first-child').empty().append(
 		    	      $('<span/>').addClass('glyphicon glyphicon-menu-left')
 		    	   );
-		    	   $('#content > div > button:last-child').empty().append(
+		    	   $('.test > div > button:last-child').empty().append(
 		    	      $('<span/>').addClass('glyphicon glyphicon-menu-right')
 		    	   );	
-				});
+				});*/
 				
 				$('#taste').click(e=>{
 					alert('taste click');
@@ -104,8 +130,7 @@ bemeal.router = {
 					})
 				});
 				
-			})
-			;
+			});
 		}
 };
 
