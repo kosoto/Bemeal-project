@@ -26,7 +26,6 @@ function naviUI (){
 					+'</a>'
 					+'<ul id="info" class="dropdown-menu" role="menu">'
 						+'<li><a href="#" id="login">로그인</a></li>'
-						+'<li><a href="#" id="adminLogin">관리자로그인</a></li>'
 					+'</ul>'
 				+'</li>'
 			+'</ul>'

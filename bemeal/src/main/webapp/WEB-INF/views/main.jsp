@@ -10,9 +10,9 @@
 <script src="${context}/resources/js/jquery/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <!-- bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="${context}/resources/js/jquery/popup.js"></script>
 <!-- slick -->
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -31,8 +31,8 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js"></script>
 </head>
 <body>
-<<<<<<< HEAD
-	<div id="wrapper">
+
+	<!-- <div id="wrapper">
 	<div class="multiple-items">
 	<img src="" alt="img1" title="img1">
     <img src="" alt="img2" title="img2">
@@ -45,21 +45,14 @@
     <img src="" alt="img9" title="img9">
     <img src="" alt="img10" title="img10">
     </div>
-	</div>
-=======
+	</div> -->
+
 	<div id="wrapper"></div>
 	
->>>>>>> refs/remotes/origin/sam
+
 	<script>
-<<<<<<< HEAD
-		//bemeal.init('${context}');
-	 $(document).ready(function(){
-      $('.multiple-items').bxSlider();
-    });
-	</script>
-=======
 		bemeal.init('${context}');
 	</script> 
->>>>>>> refs/remotes/origin/sam
+
 </body>
 </html>
