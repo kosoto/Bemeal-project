@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="${context}/resources/js/jquery/popup.js"></script>
 <!-- slick -->
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -25,10 +26,12 @@
 <link rel="stylesheet" type="text/css" href="${context}/resources/css/yoonho.css">
 <link rel="stylesheet" type="text/css" href="${context}/resources/css/junghoon.css">
 <link rel="stylesheet" type="text/css" href="${context}/resources/css/kaeun.css">
+<link rel="stylesheet" type="text/css" href="${context}/resources/css/sam.css">
 <!-- less compiler -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js"></script>
 </head>
 <body>
+<<<<<<< HEAD
 	<div id="wrapper">
 	<div class="multiple-items">
 	<img src="" alt="img1" title="img1">
@@ -43,11 +46,20 @@
     <img src="" alt="img10" title="img10">
     </div>
 	</div>
+=======
+	<div id="wrapper"></div>
+	
+>>>>>>> refs/remotes/origin/sam
 	<script>
+<<<<<<< HEAD
 		//bemeal.init('${context}');
 	 $(document).ready(function(){
       $('.multiple-items').bxSlider();
     });
 	</script>
+=======
+		bemeal.init('${context}');
+	</script> 
+>>>>>>> refs/remotes/origin/sam
 </body>
 </html>
