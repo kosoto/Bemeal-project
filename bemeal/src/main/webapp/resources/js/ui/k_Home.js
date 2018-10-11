@@ -6,6 +6,10 @@ function k_HomeUI(){
 	+'<h2>content지롱</h2><br>말<br>말<br>말<br>말<br>말<br>말'
 	+'</div>'
 	+'<div class="item3">'
+<<<<<<< HEAD
 	+'</div>';}
 	
 	
+=======
+	+'</div>';}
+>>>>>>> refs/remotes/origin/master

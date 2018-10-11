@@ -46,29 +46,31 @@ bemeal.router = {
 					$(y.resolve);
 				})
 			).done(x=>{
-				$('#wrapper').html(naviUI());
-				
-				$.getScript($.script()+"/ui/imgRow.js",()=>{
-					$('#wrapper').append(
-							$('<div/>').addClass('imgRow').html(rowUI()).slick({
-								 infinite: true,
-							      slidesToShow: 5,
-							      slidesToScroll: 5
-							})
-							);
-					    $('#first').click(e=>{
-					       $('#first').text('first');
-					    });
-					    $('.imgRow > button:first-child').empty().append(
-					    	     $('<span/>').addClass('glyphicon glyphicon-menu-left')
-					    	   );
-			    	   $('.imgRow > button:last-child').empty().append(
-			    	     $('<span/>').addClass('glyphicon glyphicon-menu-right')
-			    	   );
+				$('#wrapper').html(naviUI())
+				.append(
+					$('<header/>'),
+					$('<div/>').attr({id:'content'}),
+					$('<footer/>')
+				);
+				$.getScript($.script()+"/ui/carousel.js",()=>{
+					$('#content').append(
+							$(carouselUI({
+								id:'id'
+							}))
+					);
 				});
+<<<<<<< HEAD
+=======
+				
+				
+>>>>>>> refs/remotes/origin/master
 				$('#taste').click(e=>{
 					alert('taste click');
 					$.getScript($.script()+"/kaeun.js",()=>{
+<<<<<<< HEAD
+=======
+						/*가야 할 곳은 개인이 알아서*/
+>>>>>>> refs/remotes/origin/master
 						kaeun.init();
 					})
 				});
@@ -76,33 +78,31 @@ bemeal.router = {
 					alert('menu click');
 					$.getScript($.script()+"/yoonho.js",()=>{
 						/*가야 할 곳은 개인이 알아서*/
-						yoonho.main();
+						yoonho.item.init();
 					})
 				});
 				$('#login').click(e=>{
 					alert('login click');
-					$.getScript($.script()+"/junghoon.js",()=>{
+					$.getScript($.script()+"/junghoon.js",(e)=>{
 						/*가야 할 곳은 개인이 알아서*/
-						junghoon.main();
-					})
-				});
-				$('#adminLogin').click(e=>{
-					alert('adminLogin click');
-					$.getScript($.script()+"/junghoon.js",()=>{
-						/*가야 할 곳은 개인이 알아서*/
-						junghoon.main();
+						junghoon.member.login();
 					})
 				});
 				$('#join').click(e=>{
 					alert('join click');
 					$.getScript($.script()+"/junghoon.js",()=>{
 						/*가야 할 곳은 개인이 알아서*/
-						junghoon.main();
+						junghoon.member.add();
+					})
+				});
+				$('#sam').click(e=>{
+					alert('sam click');
+					$.getScript($.script()+"/sam.js",()=>{
+						sam.util.popup();
 					})
 				});
 				
-			})
-			;
+			});
 		}
 };
 

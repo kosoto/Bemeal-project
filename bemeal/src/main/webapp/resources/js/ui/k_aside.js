@@ -33,7 +33,11 @@ function asideUI (){
 	+'    <a href="#" id="collect_btn" class="list-group-item">'
 	+'        <i class="glyphicon glyphicon-heart"></i>  콜렉션'
 	+'    </a>'
+<<<<<<< HEAD
 	+'</div>        '
+=======
+	+'</div>'
+>>>>>>> refs/remotes/origin/master
 	+'</div>'
 	+'</div>'
 	+'</aside> ';}

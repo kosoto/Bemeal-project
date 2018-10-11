@@ -26,6 +26,7 @@ kaeun.router = {
            home : ()=>{ //첫화면
         	   alert("home 들어옴");
                 $.when(
+<<<<<<< HEAD
                            $.getScript($.script()+"/ui/navi.js"),
                            $.getScript($.script()+"/ui/k_aside.js"),
                            $.getScript($.script()+"/ui/k_Home.js"),
@@ -36,6 +37,16 @@ kaeun.router = {
                            $('#wrapper').html(naviUI()
                         		   			  +k_HomeUI());
                           $('#side_grid').html(asideUI());
+=======
+                           $.getScript($.script()+"/ui/k_aside.js"),
+                           $.getScript($.script()+"/ui/k_Home.js"),
+                           $.Deferred(y=>{
+                                $(y.resolve);
+                           })
+                     ).done(x=>{
+                           $('#content').html(k_HomeUI());
+                           $('#side_grid').html(asideUI());
+>>>>>>> refs/remotes/origin/master
                           //side menu시작
                            $('#slide-submenu').on('click',function() {				        
                         	        $(this).closest('.list-group').fadeOut('slide',function(){
