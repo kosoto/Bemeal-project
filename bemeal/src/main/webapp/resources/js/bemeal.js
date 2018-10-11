@@ -46,23 +46,26 @@ bemeal.router = {
 					$(y.resolve);
 				})
 			).done(x=>{
-				$('#wrapper').html(naviUI());
+				$('#wrapper').html(naviUI())
+				.append(
+					$('<header/>'),
+					$('<div/>').attr({id:'content'}),
+					$('<footer/>')
+				);
 				
 				$.getScript($.script()+"/ui/imgRow.js",()=>{
-					$('#wrapper').append(
-							$('<div/>').addClass('imgRow').html(rowUI())
-							.slick({
-								 infinite: true,
-							      slidesToShow: 5,
-							      slidesToScroll: 5
-							})
-							);
-					   $('.imgRow > button:first-child').empty().append(
-			    	      $('<span/>').addClass('glyphicon glyphicon-menu-left')
-			    	   );
-			    	   $('.imgRow > button:last-child').empty().append(
-			    	      $('<span/>').addClass('glyphicon glyphicon-menu-right')
-			    	   );
+					$('#content').append($(rowUI()));
+					$('#content > div').slick({
+						 infinite: true,
+					      slidesToShow: 5,
+					      slidesToScroll: 5
+					});
+				   $('#content > div > button:first-child').empty().append(
+		    	      $('<span/>').addClass('glyphicon glyphicon-menu-left')
+		    	   );
+		    	   $('#content > div > button:last-child').empty().append(
+		    	      $('<span/>').addClass('glyphicon glyphicon-menu-right')
+		    	   );	
 				});
 				
 				$('#taste').click(e=>{
