@@ -15,12 +15,13 @@
  	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="${context}/resources/js/bemeal.js"></script>
 	<link rel="stylesheet/less" type="text/css" href="${context}/resources/css/bemeal.less" >
+	<link rel="stylesheet" href="${context}/resources/css/yoonho.css" >
 	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script>
 </head>
 <body>
 	<div id="wrapper">
-	
-	</div>
+		<!-- -->
+	</div> 
 <script>	
 	bemeal.init('${context}');
 </script>

@@ -46,7 +46,10 @@ bemeal.router = {
 					$(y.resolve);
 				})
 			).done(x=>{
-				$('#wrapper').html(naviUI());
+				$('#wrapper').html(naviUI())
+				.append($('<div/>').attr({id:"header"}))
+				.append($('<div/>').attr({id:"content"}))
+				.append($('<div/>').attr({id:"footer"}));
 				
 				$.getScript($.script()+"/ui/imgRow.js",()=>{
 					$('#wrapper').append(
@@ -75,10 +78,10 @@ bemeal.router = {
 					})
 				});
 				$('#menu').click(e=>{
-					alert('menu click');
+					alert('1.menu click');
 					$.getScript($.script()+"/yoonho.js",()=>{
 						/*가야 할 곳은 개인이 알아서*/
-						yoonho.main();
+						yoonho.main.init();
 					})
 				});
 				$('#login').click(e=>{
