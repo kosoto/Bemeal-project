@@ -66,12 +66,10 @@ bemeal.router = {
 			    	     $('<span/>').addClass('glyphicon glyphicon-menu-right')
 			    	   );
 				});
-				
 				$('#taste').click(e=>{
 					alert('taste click');
 					$.getScript($.script()+"/kaeun.js",()=>{
-						/*가야 할 곳은 개인이 알아서*/
-						kaeun.main();
+						kaeun.init();
 					})
 				});
 				$('#menu').click(e=>{
