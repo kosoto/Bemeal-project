@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <title>Be meal</title>
 <!-- jquery -->
 <script src="${context}/resources/js/jquery/jquery.min.js"></script>

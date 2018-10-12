@@ -64,7 +64,8 @@ bemeal.router = {
 					$('footer').append(footerUI());
 
 				});
-				
+
+
 				$.getJSON($.ctx()+"/item/list/first",d=>{
 					$('#content').append(
 							bemeal.service.carousel({
@@ -101,6 +102,7 @@ bemeal.router = {
 				$('#logo').click(e=>{
 					bemeal.router.main();
 				});
+
 				$('#taste').click(e=>{
 					alert('taste click');
 					$.getScript($.script()+"/kaeun.js",()=>{
