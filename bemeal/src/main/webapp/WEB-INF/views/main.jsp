@@ -24,14 +24,13 @@
 <link rel="stylesheet" type="text/css" href="${context}/resources/css/sam.css">
 <!-- less compiler -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js"></script>
+
 </head>
 <body>
 
 	<div id="wrapper"></div>
-
 	<script>
 		bemeal.init('${context}');
 	</script> 
-
 </body>
 </html>

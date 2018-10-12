@@ -47,12 +47,12 @@ bemeal.router = {
 				})
 			).done(x=>{
 				$('#wrapper').html(naviUI())
+
 				.append(
 					$('<header/>'),
 					$('<div/>').attr({id:'content'}),
 					$('<footer/>')
 				);
-				
 				$('header').append(
 						bemeal.service.carousel({
 							id:'banner',
@@ -62,6 +62,7 @@ bemeal.router = {
 				);
 				$.getScript($.script()+"/ui/footer.js",()=>{
 					$('footer').append(footerUI());
+
 				});
 				
 				$.getJSON($.ctx()+"/item/list/first",d=>{
@@ -108,10 +109,12 @@ bemeal.router = {
 					})
 				});
 				$('#menu').click(e=>{
-					alert('menu click');
+					alert('1.menu click');
 					$.getScript($.script()+"/yoonho.js",()=>{
 						/*가야 할 곳은 개인이 알아서*/
+
 						yoonho.item.init();
+
 					})
 				});
 				$('#login').click(e=>{
