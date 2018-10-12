@@ -3036,3 +3036,11 @@
 2018-10-12 16:56:47,821 [Worker-209: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
 2018-10-12 16:56:47,821 [Worker-209: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-10-12 16:56:47,821 [Worker-209: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-12 17:10:47,378 [Worker-235: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for bemeal
+2018-10-12 17:10:47,908 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 17:10:47,908 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-10-12 17:10:47,924 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 17:10:47,924 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-12 17:10:47,924 [Worker-234: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of bemeal
+2018-10-12 17:10:47,924 [Worker-234: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for bemeal
+2018-10-12 17:10:47,924 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
