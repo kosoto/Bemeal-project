@@ -1,11 +1,11 @@
 function y_item_detailUI(){
-	return '<div class="wrap" id="y_item_detailUI">'
-	+'<div class="container-fluid text-center">    '
+	return '<div class="white-popup text-center" id="y_item_detailUI">'
+	+'<div class="detail-main">    '/*white-popup*/
 	+'   <div class="row content">'
 	+'      <div class="col-sm-8 text-left"> '
 	+'         <div class="container">'
 	+'            <br/><br/><br/><br/>     '
-	+'            <img src="/web/resources/img/yoonho/maehwa_chicken.jpg" height="1000" width="1000" class="img-rounded"> '
+	+'            <img src="/web/resources/img/yoonho/maehwa_chicken.jpg" class="img-rounded item img"> '
 	+'            <h1>매화 (치킨, 연어구이)</h1>'
 	            +'<p>[베스트 & 스테디셀러 SINCE 2007] 12가지 다양한 반찬으로 구성된 프리미엄 도시락입니다. 푸짐한 반찬과 함께 촉촉하고 부드러운 연어구이와 치킨이 구성되어 있어 부족하지 않고 든든하게 드실 수 있는 도시락 입니다. 생수와 조미 김이 함께 제공 됩니다.</p>'
 	+'           <br/> '
@@ -85,13 +85,11 @@ function y_item_detailUI(){
 	+'                  </form>'
 	+'                </div>'
 	+'              </div>'
-	            +''
-	+''
-	+''
 	+'			</div>'
 	+'		</div>'
-	+''
-	+'		<div class="col-sm-4 sidenav">'
+	+'	</div>'
+
+	+'		<div class="detail-right position">'
 	+'			<div class="well well-lg">'
 	+'				<h2>매화 (치킨, 연어)</h2>'
 	+'				<h3>(사각도시락)</h3>'
@@ -107,12 +105,14 @@ function y_item_detailUI(){
 	+'					<span class="glyphicon glyphicon-thumbs-up p float left"></span>'
 	+'				</p>'
 	+'			</div>'
-	+'			<div class="well well-lg">'
-
-	+'			</div>'
 	+'		</div>'
-
-	+'	</div>'
+	
 	+'</div>'
-	+'</div>';
+	+'</div>'
+	
+
+	+'</div>'
+
+	
+
 }

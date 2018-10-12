@@ -30,22 +30,21 @@ yoonho.item = (()=>{
 		setContentView();
 	};
 	var setContentView =()=>{
-		let ctn = $('#content');
-		ctn.empty();
-		$.getScript($.script()+'/ui/y_item_detail.js',()=>{
+		$.getScript($.script()+'/ui/y_item_detail_modal.js',()=>{
 			$.magnificPopup.open({
 				closeBtnInside:true,
 				closeOnContentClick:false,
-				alignTop: true,
-				fixedBgPos:true,
+				alignTop: false,
+				fixedBgPos: true,
 				fixedContentPos:false,
 				items:{src:
-					y_item_detailUI()
+					y_item_detail_modalUI()
 				},
 				midClick:true,
 				overflowY:'auto',
 				removalDelay:'0',
-				type:'inline'}); 
+				type:'inline'
+				}); 
 			$('.btn').on('click',function(){
 				alert($('#code').val());
 			});
@@ -53,10 +52,17 @@ yoonho.item = (()=>{
 
 		})
 	};
+
 	return {init:init}
 })();
 
 
+/*var setContentView=()=>{
+	$.getScript($.script()+'/ui/y_item_detail.js',()=>{
+		$('#content').append(y_item_detailUI());
+	})
+}
+*/
 
 
 /*		$('<div/>').attr({id:"item_wrap"}).addClass('wrap').appendTo($('#content'));
