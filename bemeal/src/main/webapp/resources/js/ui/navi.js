@@ -8,7 +8,7 @@ function naviUI (){
 					+'class="icon-bar"></span> <span class="icon-bar"></span> <span'
 					+'class="icon-bar"></span>'
 			+'</button>'
-			+'<a class="navbar-brand" href="#">Be meal</a>'
+			+'<a class="navbar-brand" href="#" id="logo">Be meal</a>'
 		+'</div>'
 		+'<div class="collapse navbar-collapse"'
 			+'id="bs-example-navbar-collapse-1">'

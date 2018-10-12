@@ -38,40 +38,21 @@
 </head>
 <body>
 	<div id="wrapper">
-		<div class="rio-promos">
-			<img
-				src="http://maggiesadler.com/wp-content/uploads/2015/10/11189261_759116200870985_1595157767_n.jpg" />
-			<img
-				src="http://maggiesadler.com/wp-content/uploads/2015/10/10004088_1491055334449687_1187165020_n.jpg" />
-			<img
-				src="http://maggiesadler.com/wp-content/uploads/2015/10/10817863_856543214397968_517239188_n.jpg" />
-			<img
-				src="http://maggiesadler.com/wp-content/uploads/2015/10/10919749_326992714172441_299394464_n.jpg" />
-			<img
-				src="http://maggiesadler.com/wp-content/uploads/2015/10/10617007_939025979457209_6938406_n.jpg" />
-			<img
-				src="http://maggiesadler.com/wp-content/uploads/2015/10/1168617_1435408473368301_409182770_n.jpg" />
-			<img
-				src="http://maggiesadler.com/wp-content/uploads/2015/10/11189836_754178218029431_2102772742_n.jpg" />
-			<img
-				src="http://maggiesadler.com/wp-content/uploads/2015/10/10843869_1658219887738208_2033326788_n.jpg" />
-			<img
-				src="http://maggiesadler.com/wp-content/uploads/2015/10/1515054_1379051609022475_1394148610_n.jpg" />
+		<div id="content">
+		
 		</div>
 	</div>
 	<script>
-	 $('.rio-promos').slick({
-	        dots: true,
-	        infinite: true,
-	        speed: 500,
-	        slidesToShow: 2,
-	        slidesToScroll: 2,
-	        autoplay: true,
-	        autoplaySpeed: 2000,
-	        arrows: true,
-	      
-	    });
-	//	bemeal.init('${context}');
+	$.getJSON("/web/item/list/second",d=>{
+		$('#content').append(
+				bemeal.service.carousel({
+					id:'testslide2',
+					arr:d.list,
+					navi_size:4,
+					row_size:5
+				})
+		);
+	});
 	</script>
 </body>
 </html>

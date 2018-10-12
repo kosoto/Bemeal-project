@@ -56,7 +56,6 @@ yoonho.item = (()=>{
 
 
 
-
 /*		$('<div/>').attr({id:"item_wrap"}).addClass('wrap').appendTo($('#content'));
 $('<div/>').attr({id:"item_wrap_2"}).addClass('container-fluid text-center').appendTo($('#item_wrap'));
 $('<div/>').attr({id:"item_wrap_3"}).addClass('row content').appendTo($('#item_wrap_2'));
