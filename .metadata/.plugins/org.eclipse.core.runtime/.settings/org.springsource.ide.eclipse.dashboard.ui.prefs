@@ -1,4 +1,8 @@
 dashboard.feed.springio.migration=true
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.springsource.ide.eclipse.dashboard.uidashboard.feed.last_update=1539217180612
+=======
+org.springsource.ide.eclipse.dashboard.uidashboard.feed.last_update=1539329759952
+>>>>>>> refs/remotes/origin/junghoon
 org.springsource.ide.eclipse.dashboard.uidashboard.startup=false

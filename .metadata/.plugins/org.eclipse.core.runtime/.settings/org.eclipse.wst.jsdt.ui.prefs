@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 CONTENT_ASSIST_BACKGROUND_COLOR=18,35,24
 CONTENT_ASSIST_FOREGROUND_COLOR=228,241,233
 content_assist_parameters_background=18,35,24
 content_assist_parameters_foreground=228,241,233
 content_assist_proposals_background=18,35,24
 content_assist_proposals_foreground=228,241,233
+=======
+>>>>>>> refs/remotes/origin/junghoon
 eclipse.preferences.version=1
 fontPropagated=true
+<<<<<<< HEAD
 java_bracket=216,216,216
 java_comment_task_tag=204,223,50
 java_default=216,216,216
@@ -49,5 +53,13 @@ semanticHighlighting.methodDeclarationName.strikethrough=false
 semanticHighlighting.methodDeclarationName.underline=false
 tabWidthPropagated=true
 tagName=255,255,255
+=======
+org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+org.eclipse.wst.jsdt.ui.editor.tab.width=
+org.eclipse.wst.jsdt.ui.formatterprofiles.version=11
+org.eclipse.wst.jsdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+tabWidthPropagated=true
+>>>>>>> refs/remotes/origin/junghoon
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

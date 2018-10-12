@@ -1,7 +1,15 @@
 IMPORT_FILES_AND_FOLDERS_RELATIVE=true
+<<<<<<< HEAD
 IMPORT_FILES_AND_FOLDERS_TYPE=23,1
+=======
+IMPORT_FILES_AND_FOLDERS_TYPE=23,1\:7,1
+>>>>>>> refs/remotes/origin/junghoon
 PROBLEMS_FILTERS_MIGRATE=true
 eclipse.preferences.version=1
+<<<<<<< HEAD
 platformState=1538642645702
+=======
+platformState=1538964377124
+>>>>>>> refs/remotes/origin/junghoon
 quickStart=false
 tipsAndTricks=true

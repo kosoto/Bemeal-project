@@ -1,5 +1,6 @@
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
 //org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
+<<<<<<< HEAD
 ACTIVE_HYPERLINK_COLOR=255,200,0
 ATMARK_RULE=89,179,179
 ATTRIBUTE_DELIM=89,179,179
@@ -25,7 +26,10 @@ INCOMING_COLOR=31,179,235
 MEDIA=242,0,255
 MESSAGE_WARNING_COLOR=255,174,0
 OUTGOING_COLOR=232,243,236
+=======
+>>>>>>> refs/remotes/origin/junghoon
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
+<<<<<<< HEAD
 PROPERTY_NAME=255,0,255
 PROPERTY_VALUE=242,0,255
 PSEUDO=89,179,179
@@ -66,7 +70,10 @@ dtdString=89,224,134
 dtdSymbol=255,191,191
 dtdTag=96,96,255
 dtdTagName=96,96,255
+=======
+>>>>>>> refs/remotes/origin/junghoon
 eclipse.preferences.version=1
+<<<<<<< HEAD
 entityReference=212,0,255
 org.eclipse.compare.contentmergeviewer.TextMergeViewer=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
 org.eclipse.debug.ui.DetailPaneFont=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
@@ -231,3 +238,5 @@ tagAttributeValue=212,0,255
 tagBorder=0,254,254
 tagName=89,179,179
 terminal.views.view.font.definition=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+=======
+>>>>>>> refs/remotes/origin/junghoon

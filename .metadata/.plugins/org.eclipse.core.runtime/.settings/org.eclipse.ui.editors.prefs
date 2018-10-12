@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 AbstractTextEditor.Color.Background=11,21,14
+=======
+>>>>>>> refs/remotes/origin/junghoon
 AbstractTextEditor.Color.Background.SystemDefault=false
+<<<<<<< HEAD
 AbstractTextEditor.Color.FindScope=17,17,17
 AbstractTextEditor.Color.Foreground=216,216,216
 AbstractTextEditor.Color.Foreground.SystemDefault=false
 AbstractTextEditor.Color.SelectionBackground=18,68,101
+=======
+>>>>>>> refs/remotes/origin/junghoon
 AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+<<<<<<< HEAD
 AbstractTextEditor.Color.SelectionForeground=126,185,147
+=======
+>>>>>>> refs/remotes/origin/junghoon
 AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+<<<<<<< HEAD
 PHPReadOccurrenceIndicationColor=47,47,3
 PHPWriteOccurrenceIndicationColor=47,47,3
 TextOccurrenceIndicationColor=27, 98, 145
@@ -15,7 +25,10 @@ breakpointIndicationColor=35,83,135
 currentIPColor=47,52,54
 currentLineColor=20,37,25
 deletionIndicationColor=210,82,82
+=======
+>>>>>>> refs/remotes/origin/junghoon
 eclipse.preferences.version=1
+<<<<<<< HEAD
 filteredSearchResultIndicationColor=18,68,101
 findBlockColor=255,165,0
 findIndicationColor=34,42,86
@@ -31,7 +44,10 @@ org.eclipse.cdt.ui.occurrenceIndicationColor=47,47,3
 org.eclipse.cdt.ui.writeOccurrenceIndicationColor=47,47,3
 overriddenByCSS=,AbstractTextEditor.Color.Background,AbstractTextEditor.Color.FindScope,AbstractTextEditor.Color.Foreground,AbstractTextEditor.Color.Foreground.SystemDefault,AbstractTextEditor.Color.SelectionBackground,AbstractTextEditor.Color.SelectionForeground,PHPReadOccurrenceIndicationColor,PHPWriteOccurrenceIndicationColor,TextOccurrenceIndicationColor,asOccurencesIndicationColor,breakpointIndicationColor,currentIPColor,currentLineColor,deletionIndicationColor,filteredSearchResultIndicationColor,findBlockColor,findIndicationColor,hyperlinkColor,hyperlinkColor.SystemDefault,infoIndicationColor,javaScriptOccurrenceIndicationColor,lineNumberColor,linked.slave.color,matchingTagIndicationColor,occurrenceIndicationColor,org.eclipse.cdt.ui.occurrenceIndicationColor,org.eclipse.cdt.ui.writeOccurrenceIndicationColor,overrideIndicatorColor,printMarginColor,pydevOccurrenceIndicationColor,searchResultHighlighting,searchResultIndication,searchResultIndicationColor,searchResultTextStyle,secondaryIPColor,spellingIndicationColor,writeOccurrenceIndicationColor,
 overrideIndicatorColor=54,84,81
+=======
+>>>>>>> refs/remotes/origin/junghoon
 overviewRuler_migration=migrated_3.1
+<<<<<<< HEAD
 predarkestdark.AbstractTextEditor.Color.Background.SystemDefault=false
 predarkestdark.AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
 predarkestdark.AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
@@ -44,3 +60,5 @@ searchResultTextStyle=BOX
 secondaryIPColor=47,52,54
 spellingIndicationColor=253,170,211
 writeOccurrenceIndicationColor=47,47,3
+=======
+>>>>>>> refs/remotes/origin/junghoon
