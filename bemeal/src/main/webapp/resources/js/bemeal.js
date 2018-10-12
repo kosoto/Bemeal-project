@@ -59,18 +59,13 @@ bemeal.router = {
 							}))
 					);
 				});
-<<<<<<< HEAD
-=======
+
 				
-				
->>>>>>> refs/remotes/origin/master
+			
 				$('#taste').click(e=>{
 					alert('taste click');
 					$.getScript($.script()+"/kaeun.js",()=>{
-<<<<<<< HEAD
-=======
 						/*가야 할 곳은 개인이 알아서*/
->>>>>>> refs/remotes/origin/master
 						kaeun.init();
 					})
 				});

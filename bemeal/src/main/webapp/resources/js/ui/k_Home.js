@@ -1,15 +1,11 @@
 function k_HomeUI(){
-	return 	'<div class="grid-container">'
-	+'<div id="side_grid" class="item1">'
+	return 	'<div class="grid-layout">'
+	+'<div id="side_grid" class="grid_menu">'
 	+'</div>'
-	+'<div id="content_grid" class="item2">'
+	+'<div class="grid_main">'
+	+'<div id="content_grid">'
 	+'<h2>content지롱</h2><br>말<br>말<br>말<br>말<br>말<br>말'
 	+'</div>'
-	+'<div class="item3">'
-<<<<<<< HEAD
+	+'</div>'
+	+'<div id="side_grid class="grid_rightside">'
 	+'</div>';}
-	
-	
-=======
-	+'</div>';}
->>>>>>> refs/remotes/origin/master
