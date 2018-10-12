@@ -137,7 +137,7 @@ kaeun.payments = {
 			let arr = [{img:'사진',name:'상품a',info:'블라블라',num:'3',price:'1000',total:'3000'},
 						{img:'사진2',name:'상품b',info:'블라블라',num:'3',price:'1000',total:'3000'},
 						{img:'사진3',name:'상품a',info:'블라블라',num:'3',price:'1000',total:'3000'}
-					]; // 우선은더미 
+					]; // 우선은더미 ????
 			$.each(arr,(i,j)=>{ 
 				//k_ui.checkbox({id:'',txt:''}); + 이거
 				k_ui.n_div({clazz:'iteminfo',html:k_ui.checkbox({id:'cart_chk'+i,txt:''}),to:$('#cart_grid')});
